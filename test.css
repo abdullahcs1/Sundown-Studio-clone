@@ -1,0 +1,59 @@
+#page4{
+    min-height: 150vh;
+    max-width: 100vw;
+    overflow: hidden;
+    background-color: #EFEAE3;
+    padding: 6vw 0;
+}
+#but{
+    padding: 3vw 2vw;
+}
+#black-box{
+    height: 110vh;
+    margin: 0vw 2vw;
+    background-color: black;
+    border-radius: 21px;
+    display: flex;
+    align-items: center;
+}
+#black-box img{
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 21px;
+}
+#tab-sec h2{
+    font-family: sun-mediu;
+    font-size: 4.5vw;
+    font-weight: bolder;
+    position: relative;
+    cursor: pointer;
+    color: #504A45;
+}
+#tabs{
+    position: relative;
+    border-left: 2px solid #504A45;
+    padding-left: 2vw;
+}
+#tabs h2 a{
+    position: relative;
+    text-decoration: none;
+}
+#Design{
+    right: 2vw;
+}
+#design{
+    color: #EFEAE3;
+}
+#black-box #tab-sec{
+    color: #EFEAE3;
+    display: flex;
+    flex-direction: column;
+    padding: 0 9vw;
+    gap: 14px;
+}
+/* #desc{
+    padding: 1vw 0;
+    font-size: 1.1vw;
+    width: 94%;
+} */
